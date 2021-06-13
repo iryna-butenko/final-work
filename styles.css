@@ -1,0 +1,372 @@
+* {
+	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+}
+
+.page{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+	border: 2px solid none;
+	background-color: #284854;
+	background-image: url(img/top_girl_oll.png) ;
+	background-repeat: no-repeat;
+	background-position: top 265.35px right 186.84px; 
+	padding-top: 22px;
+}
+
+.main-header {
+	height: 81px; 
+	width: 1230px;
+	border: 2px solid none;
+	border-radius: 100px;
+	background-color: #60C1BD;
+	padding-top: 27px;
+	margin: 0 auto; 
+	 display: flex;
+	justify-content:space-around;
+
+ 
+}
+ul {
+	display: flex;
+	justify-content:space-around;	
+}
+
+.name {
+	font-size: 30px;
+	line-height: 35px;
+	color: #fff;
+	padding-left: 44px;
+	font-family: 'Roboto';
+}
+
+.sub-name {
+	font-size: 18px;
+	line-height: 25px;
+	list-style-type: none;
+	padding-left: 50px;
+
+
+}
+
+ .send-message-area {
+ 	color: #fff;
+ 	font-size: 14px;
+ 	line-height: 19px;
+ 	text-align: center;
+ 	background-color: #60C1BD;
+ 	border: 2px solid #fff;
+	width: 50px;
+	height: 30px;	
+
+}
+
+.slogan {
+	font-size: 85px;
+	line-height: 102px;
+	color: #8BC441;
+	border: ;
+	position: absolute;
+	width: 712px;
+	height: 214px;
+	margin-top: 120px;
+	margin-left: 180px;
+	font-family: 'Roboto';
+}
+
+.text {
+	color: #fff;
+	font-size: 20px;
+	line-height: 28px;
+	width: 542px;
+	height: 112px;
+	margin-top: 384px;
+	margin-left: 180px;
+}
+
+.body-inform {
+	margin-top:-80px;
+	margin-left: 12%;
+}
+
+.information1 {
+	width: 506px;
+	height: 203px;
+	border: 4px solid none;
+	background-color: #F4F6F0;
+	display: inline-flex;
+	margin-right: 83px;
+	background-image: url('img/girl_cat1.png'), url('img/girl_cat2.png'), url('img/girl_cat3.png'), url('img/girl_cat4.png') ;
+	background-position: left 48.54px bottom 79.27px, left 30px bottom 47px, left 53.5px bottom 103.63px, left 61.77px bottom 98.22px; 
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.information2 {
+	width: 506px;
+	height: 203px;
+	border: 4px solid none;
+	background-color: #F4F6F0;
+	display: inline-flex;
+	margin-right: 83px;
+	background-image: url('img/cet_dog.png'), url('img/cet_dog2.png') ;
+	background-position: left 30px bottom 49px, left 49.85px bottom 116.77px; 
+	background-repeat: no-repeat, no-repeat;
+}
+
+.services {
+	font-size: 37px;
+	line-height: 43px;
+	color: #8BC441;
+	margin-left: 177px;
+	margin-top: 49px;
+	font-family: 'Roboto';
+}
+
+.info {
+	font-size: 20px;
+	line-height: 27px;
+	color: #60C1BD;
+	position: absolute;
+	margin-left: 177px;
+	margin-top: 101px;
+}
+
+.hospitals {
+	width: 100%;
+	border: 2px solid none;
+	padding-bottom: 85px
+	}
+
+.hospitals-text-litl {
+	font-size: 20px;
+	line-height: 27,8px;
+	color: #798B56;
+}
+
+.hospitals-text-title {
+	width: 525px;
+	font-size: 40px;
+	line-height: 46,6px;
+	color: #8BC441;
+}
+
+.hospitals-text{
+	width: 525px;
+	font-size: 16px;
+	line-height: 28,8px;
+	margin-top: 10px;
+}
+
+
+.hospitals-text-area-left{
+	margin-left: 285px;
+	margin-top: 160px;
+	width: 450px;
+	display: inline-block;
+	
+}
+
+.hospitals-text-area-right{
+	margin-left: 130px;
+	margin-top: 160px;
+	display: inline-block;
+}
+
+.hospitals-img-left{
+	width: 285px;
+	height: 285px;
+	display: inline-block;
+	background-color: #D3DAC3;
+	margin-left: 231px;
+	margin-top: 128px;
+	border-radius: 50%;
+	}
+
+.dog{
+	margin-left: 40px;
+	margin-top: -20px;
+}
+
+.dog2{
+	margin-left: -10px;
+	margin-top: -40px;
+}
+
+.dog3{
+	margin-left: 30%;
+	margin-top: -20px;
+}
+
+.hospitals-img-right{
+	width: 285px;
+	height: 285px;
+	display: inline-block;
+	background-color: #D3DAC3;
+	margin-left: 202px;
+	margin-top: 128px;
+	border-radius: 50%;
+	}
+
+
+.start {
+	margin-top: 181px;
+	
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	color: #60C1BD;
+	}
+
+.work {
+	font-size: 55px;
+	line-height: 64px;
+	color: #284854;	
+	text-align: center;
+	margin: 0 auto;
+}
+
+.missions {
+	width: 100%;
+	background-color: #F4F6F0;
+	background-image: url(img/img_miss.png);
+	background-position: top 20% left 183px; 
+	background-repeat: no-repeat;
+	padding-top: 78px;
+	padding-right: 192px;
+	padding-bottom: 151px;
+
+}
+
+.missions-text-aria {
+	margin-left: 745px;
+}
+
+.missions-text-litl {
+	font-size: 22px;
+	line-height: 30px;
+	color: #60C1BD;
+}
+
+.missions-text-title {
+	font-size: 55px;
+	line-height: 64px;
+	color: #284854;
+}
+
+.missions-text {
+	font-size: 18px;
+	line-height: 32px;
+	color: #284854;
+	width: 504px;
+}
+
+.missions-text-title-bottom{
+	color: #60C1BD;
+	font-size: 16px;
+	line-height: 21px;
+	border: 2px solid;
+	border-color: #60C1BD;
+	width: 112px;
+	margin-top: 58px;
+}
+
+.sound-pretty{
+	padding-top: 85px;
+	padding-bottom: 85px;
+	width: 100%;
+	background-color: #8BC441;
+	background-image: url('img/dog-velo1.png'), url('img/dog-velo2.png'), url('img/dog-velo3.png') ;
+	background-position: left 266.57px bottom 235.16px, left 185px bottom 92px, left 263.1px bottom 261.91px; 
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.sound-pretty-text-area{
+	color: #FFFFFF;
+	margin-left: 590px;
+}
+
+.sound-pretty-title{
+	width: 523px;
+	font-size: 55px;
+	line-height: 65px;
+}
+
+.sound-pretty-text{
+	width: 242px;
+	font-size: 20px;
+	line-height: 27px;
+	margin-top: 57px;
+	display: inline-flex;
+	margin-right: 133px;
+}
+
+.footer{
+	width: 100%;
+	padding-top: 120px;
+	padding-left: 152px;
+	padding-bottom: 44px;
+	background-image: url('img/img_contact.png') ;
+	background-position: left 720px bottom 95px; 
+	background-repeat: no-repeat;
+}
+
+.footer-menu-colums{
+	display: inline-block;
+	margin-right: 161px;
+}
+
+.footer-menu-colums-contacts{
+	display: inline-block;
+	margin-left: 461px;
+	font-size: 14px;
+	line-height: 19px;
+	color: #60C1BD;
+	text-decoration: none;
+	}
+
+.footer-menu-title{
+	font-size: 13px;
+	line-height: 17px;
+	color: #284854;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+}
+
+.footer-menu-items{
+	margin-top: 25px;
+	font-size: 14px;
+	line-height: 19px;
+	color: #60C1BD;
+	text-decoration: none;
+}
+
+.footer-categoris{
+	margin-top: 71px;
+}
+
+.footer-categoris-items{
+	display: inline-flex;
+	color: #60C1BD;
+	text-decoration: none;
+	margin-right: 39px;
+}
+
+.copirite{
+	font-size: 13px;
+	line-height: 17px;
+	color: $284854;
+	margin-top: 37px;
+}
+
+.img-contacts{
+	width:230px; 
+	height:209px;
+	margin-left: 104px;
+}
